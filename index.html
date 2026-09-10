@@ -3,17 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ALPR Nebraska Public Records Tracker · ALPR Nebraska</title>
-  <meta name="description" content="Tracking public records requests related to automated license plate reader (ALPR) systems in Nebraska.">
+  <title>ALPR Nebraska</title>
+  <meta name="description" content="An independent public-interest archive tracking public records requests and released documents on automated license plate reader systems in Nebraska.">
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container">
-      <a href="/" class="site-title">Nebraska ALPR Transparency Project</a>
+      <a href="/" class="site-title">ALPR Nebraska</a>
       <nav class="site-nav">
-        <a href="/" class="active">Requests</a>
-        <a href="/documents/" >Documents</a>
+        <a href="/"            class="active">Home</a>
+        <a href="/requests/"   >Requests</a>
+        <a href="/documents/"  >Documents</a>
+        <a href="/agencies/"   >Agencies</a>
+        <a href="/templates/"  >Templates</a>
+        <a href="/about/"      >About</a>
+        <a href="/contributing/" >Contributing</a>
       </nav>
     </div>
   </header>
@@ -23,120 +28,74 @@
 <section class="hero">
   <div class="container">
     <p class="hero-eyebrow">Nebraska ALPR Transparency Project</p>
-    <h1>Quis Custodiet Nebraska</h1>
+    <h1>ALPR Nebraska</h1>
     <p>
-      A public interest project tracking requests filed under the Nebraska Public Records Act
-      to document how local and state agencies in Nebraska acquire, operate, and oversee
-      automated license plate reader (ALPR) systems. Request materials, agency responses, and
-      released records are published here as they are received.
+      An independent public-interest archive tracking public records requests and released documents
+      on how Nebraska governmental agencies acquire, operate, and oversee automated license plate
+      reader (ALPR) systems.
     </p>
   </div>
 </section>
 
 <div class="container">
-  <div class="section-header">
-    <h2>Requests Filed</h2>
-    <span class="count">4 requests</span>
+
+  <div class="stat-row">
+    <div class="stat-tile">
+      <span class="stat-num">4</span>
+      <span class="stat-label">Requests Filed</span>
+    </div>
+    <div class="stat-tile">
+      <span class="stat-num">4</span>
+      <span class="stat-label">Agencies Tracked</span>
+    </div>
+    <div class="stat-tile">
+      <span class="stat-num">0</span>
+      <span class="stat-label">Records Released</span>
+    </div>
   </div>
 
-  <div class="table-wrap">
-    <table>
-      <thead>
-        <tr>
-          <th>Agency</th>
-          <th>Filed</th>
-          <th>Status</th>
-          <th>MuckRock</th>
-        </tr>
-      </thead>
-      <tbody>
-        
-        <tr>
-          <td>
-            <div class="agency-name">Lancaster County Clerk</div>
-            <div class="agency-meta">County &middot; Lancaster County, NE</div>
-          </td>
-          <td class="date-cell">Sep 9, 2026</td>
-          <td>
-            <span class="badge badge-pending">Pending</span>
-          </td>
-          <td>
-            
-              <a class="ext-link" href="https://www.muckrock.com/foi/lancaster-county-21962/nebraska-public-records-request-county-boardclerk-alprlpr-records-january-1-2018present-220454/" target="_blank" rel="noopener">
-                View request ↗
-              </a>
-            
-          </td>
-        </tr>
-        
-        <tr>
-          <td>
-            <div class="agency-name">Lancaster County Sheriff&#39;s Office</div>
-            <div class="agency-meta">County &middot; Lancaster County, NE</div>
-          </td>
-          <td class="date-cell">Sep 9, 2026</td>
-          <td>
-            <span class="badge badge-pending">Pending</span>
-          </td>
-          <td>
-            
-              <a class="ext-link" href="https://www.muckrock.com/foi/lancaster-county-21962/nebraska-public-records-request-lancaster-county-sheriff-alprlpr-records-january-1-2018present-220449/" target="_blank" rel="noopener">
-                View request ↗
-              </a>
-            
-          </td>
-        </tr>
-        
-        <tr>
-          <td>
-            <div class="agency-name">Lincoln Police Department</div>
-            <div class="agency-meta">City &middot; Lincoln, NE</div>
-          </td>
-          <td class="date-cell">Sep 9, 2026</td>
-          <td>
-            <span class="badge badge-pending">Pending</span>
-          </td>
-          <td>
-            
-              <a class="ext-link" href="https://www.muckrock.com/foi/lincoln-4033/nebraska-public-records-request-lincoln-police-alprlpr-records-january-1-2023present-220451/" target="_blank" rel="noopener">
-                View request ↗
-              </a>
-            
-          </td>
-        </tr>
-        
-        <tr>
-          <td>
-            <div class="agency-name">Nebraska Crime Commission</div>
-            <div class="agency-meta">State &middot; State of Nebraska</div>
-          </td>
-          <td class="date-cell">Sep 9, 2026</td>
-          <td>
-            <span class="badge badge-pending">Pending</span>
-          </td>
-          <td>
-            
-              <a class="ext-link" href="https://www.muckrock.com/foi/nebraska-300/nebraska-public-records-request-lincolnlancaster-alpr-reports-and-correspondence-2018present-220453/" target="_blank" rel="noopener">
-                View request ↗
-              </a>
-            
-          </td>
-        </tr>
-        
-      </tbody>
-    </table>
+  <div class="section-grid">
+    <a class="section-card" href="/requests/">
+      <div class="section-card-title">Requests</div>
+      <div class="section-card-desc">All public records requests filed under the Nebraska Public Records Act, with filing date and current status.</div>
+    </a>
+    <a class="section-card" href="/agencies/">
+      <div class="section-card-title">Agencies</div>
+      <div class="section-card-desc">Profiles of Nebraska governmental agencies that operate, fund, or access ALPR systems.</div>
+    </a>
+    <a class="section-card" href="/documents/">
+      <div class="section-card-title">Documents</div>
+      <div class="section-card-desc">Records released in response to requests, organized by request ID and agency.</div>
+    </a>
+    <a class="section-card" href="/templates/">
+      <div class="section-card-title">Request Templates</div>
+      <div class="section-card-desc">Model public records request letters by agency type — ready to adapt for any Nebraska jurisdiction.</div>
+    </a>
+    <a class="section-card" href="/about/">
+      <div class="section-card-title">About</div>
+      <div class="section-card-desc">Project scope, methodology, editorial policy, and what this archive does and does not seek to do.</div>
+    </a>
+    <a class="section-card" href="/contributing/">
+      <div class="section-card-title">Contributing</div>
+      <div class="section-card-desc">File a request, submit documents, update an agency profile, or improve a template.</div>
+    </a>
   </div>
+
 </div>
 
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>
+      <p class="footer-scope">
+        <em>Scope and limitations:</em> This project seeks public administrative and accountability records relating to ALPR systems, including policies, procurement, installation, retention, statutory reporting, audits, and information-sharing agreements. It does not seek to publish raw license-plate capture data or personal information protected from public disclosure.
+      </p>
+      <p class="footer-meta">
         Public records requests filed under the
         <a href="https://nebraskalegislature.gov/laws/statutes.php?statute=84-712" target="_blank" rel="noopener">Nebraska Public Records Act</a>,
         Neb. Rev. Stat. §§ 84-712 through 84-712.09.
         Requests submitted via <a href="https://www.muckrock.com" target="_blank" rel="noopener">MuckRock</a>.
+        <span class="build-date">Last updated: <time datetime="2026-09-10">September 10, 2026</time>.</span>
       </p>
     </div>
   </footer>
